@@ -17,7 +17,7 @@ function cargarDatos(url) {
                 <td>`+ listado[i].goles + `</td>
                 <td>`+ listado[i].fechas + `</td>
             
-                  `
+                  `;
                     document.getElementById("data").innerHTML += row;
 
 
