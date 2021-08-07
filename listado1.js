@@ -1,4 +1,4 @@
-const goleadores_url= "https://yenia-m.github.io/equipo/listado.json"
+const goleadores_url= "https:/yenia-m.github.io/equipo/listado.json"
 
 function cargandoDatos(url){
     document.getElementById("data").innerHTML="";
@@ -18,7 +18,7 @@ function cargandoDatos(url){
                 <td> `+ listado[i].fechas + `</td>
             
                   `
-                     document.getElementById("data").innerHTML += row;
+                 document.getElementById("data").innerHTML += row;
 
 
              }
