@@ -1,0 +1,25 @@
+{
+    "nombre": "listado de ejemplo",
+    "listado": [
+        {
+            "nombre": "diego",
+            "apellido": "costa",
+            "mail": "algo@algo"
+        },
+        {
+            "nombre": "mariia",
+            "apellido": "pipi",
+            "mail": "algo@algo"
+        },
+        {
+            "nombre": "pan",
+            "apellido": "tisrte",
+            "mail": "algo@algo"
+        },
+        {
+            "nombre": "diego",
+            "apellido": "costa",
+            "mail": "algo@algo"
+        }
+    ]
+}
