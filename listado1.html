@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta src="listado1.js">
+    <script src="listado1.js"> </script>
     <title>Document</title>
 
 </head>
 <body>
 
-    <button onclick="cargarDatos(goleadores_url)">
+    <button onclick="cargarDatos(equipo_url)">
         <strong> Cargar la tabla de los 5 maximos goleadores de nacional</strong>
     </button>
 
@@ -17,20 +17,24 @@
         <thead>
             <tr>
                 <th>
-                    Nombre
-                </th>
-                <th>Temporadas
-
+                    nombre
                 </th>
                 <th>
-                    Goles
+                    temporadas
+
                 </th>
+
+                <th>
+                    goles
+                </th>
+
                 <th>
                     fecha
 
                 </th>
             </tr>
         </thead>
+        <tbody id="data"></tbody>
     </table>
 
 </body>

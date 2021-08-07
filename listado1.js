@@ -12,13 +12,13 @@ function cargarDatos(url) {
                 row=
                  `
 
-                <td> `+ listado[i].nombre + `</td>
-                <td> `+ listado[i].temporadas + `</td>
-                <td> `+ listado[i].goles + `</td>
-                <td> `+ listado[i].fechas + `</td>
+                <td>`+ listado[i].nombre + `</td>
+                <td>`+ listado[i].temporadas + `</td>
+                <td>`+ listado[i].goles + `</td>
+                <td>`+ listado[i].fechas + `</td>
             
                   `
-                 document.getElementById("data").innerHTML += row;
+                    document.getElementById("data").innerHTML += row;
 
 
              }
