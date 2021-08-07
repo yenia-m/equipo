@@ -1,12 +1,12 @@
-const goleadores_url= "https://yenia-m.github.io/equipo/listado.json"
+const equipo_url = "https://yenia-m.github.io/equipo/listado.json"
 
-function cargandoDatos(url){
-    document.getElementById("data").innerHTML="";
+function cargarDatos(url) {
+    document.getElementById("data").innerHTML ="";
     fetch(url)
-        .then(respuesta=> respuesta.json())
+        .then(respuesta => respuesta.json())
     
         .then(listado => {
-            let row= "";
+            let row = "";
             for (let i=0; i < listado.length; i++) {
 
                 row=

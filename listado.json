@@ -1,25 +1,30 @@
-{
-    "nombre": "listado de ejemplo",
-    "listado": [
+[
         {
             "nombre": "diego",
-            "apellido": "costa",
-            "mail": "algo@algo"
+            "temporadas": "costa",
+            "goles": "algo@algo",
+            "fecha": "gyugjy"
         },
         {
             "nombre": "mariia",
-            "apellido": "pipi",
-            "mail": "algo@algo"
+            "temporadas": "pipi",
+           
+            "goles": "algo@algo",
+            "fecha": "gyugjy"
         },
         {
             "nombre": "pan",
-            "apellido": "tisrte",
-            "mail": "algo@algo"
+            "temporadas": "tisrte",
+            
+            "goles": "algo@algo",
+            "fecha": "gyugjy"
         },
         {
             "nombre": "diego",
-            "apellido": "costa",
-            "mail": "algo@algo" 
+            "temporadas": "costa",
+           
+            "goles": "algo@algo",
+            "fecha": "gyugjy" 
         }
-    ]
-}
+    ]    
+        
