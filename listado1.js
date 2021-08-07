@@ -1,4 +1,4 @@
-const equipo_url = "https://yenia-m.github.io/equipo/listado.json"
+const equipo_url = "https://yenia-m.github.io/equipo/listado.json";
 
 function cargarDatos(url) {
     document.getElementById("data").innerHTML ="";
